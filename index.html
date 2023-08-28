@@ -19,7 +19,7 @@
     <section class="content">
         <h1>Pokedex</h1>
 
-        <ol class="pokemons">
+        <ol id="pokemonList" class="pokemons">
             <li class="pokemon">
                 <span class="number">#001</span>
                 <span class="name">Bulbasaur</span>
@@ -28,31 +28,22 @@
                         <li class="type">Glass</li>
                         <li class="type">Poison</li>
                     </ol>
-                    <img src="./assets/images/001 Bulbasaur.png" alt="">
+                    <img src="./assets/images/poke_1.gif" alt="">
 
                 </div>
                 
             </li>
-            <!-- <li>Ivysaur
-                <img src="./assets/images/002 Ivysaur.png" alt="">
-            </li>
-            <li>Venusaur
-                <img src="./assets/images/003 Venusaur.png" alt="">
-            </li>
-            <li>Charmander
-                <img src="./assets/images/004 Charmander.png" alt="">
-            </li>
-            <li>Charmeleon
-                <img src="./assets/images/005 Charmeleon.png" alt="">
-            </li>
-            <li>Charizard
-                <img src="./assets/images/006 Charizard.png" alt="">
-            </li> -->
         </ol>
+        
+            <div class="pagination">
+                <button id="loadMoreButton" type="button">
+                    Ver Mais
+                </button>             
+            </div>
     </section>
    
-
-    <!-- <script src="./script.js"></script> -->
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 
